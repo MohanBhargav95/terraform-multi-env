@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "devopstesting-remote-state"
-    key    = "remote-state-demo"
+    key    = "workspaces"
     region = "us-east-1"
     dynamodb_table= "test_lock"
  }
